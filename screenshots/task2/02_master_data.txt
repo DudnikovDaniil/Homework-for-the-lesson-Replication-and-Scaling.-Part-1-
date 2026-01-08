@@ -1,0 +1,7 @@
+=== MASTER DATA ===
+=== MASTER DATA ===
+id	name	email
+5	Иван Петров	ivan@example.com
+6	Мария Сидорова	maria@example.com
+id	name	price
+2	Телефон	499.99

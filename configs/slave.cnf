@@ -1,0 +1,17 @@
+[mysqld]
+server-id = 2
+relay_log = /var/log/mysql/mysql-relay-bin.log
+log_bin = /var/log/mysql/mysql-bin.log
+read_only = 1
+skip_slave_start = 1
+
+# Репликация
+replicate_do_db = test_db
+replicate_ignore_db = mysql
+replicate_ignore_db = information_schema
+replicate_ignore_db = performance_schema
+
+[mysqldump]
+quick
+quote-names
+max_allowed_packet = 16M

@@ -1,0 +1,3 @@
+NAMES            STATUS          PORTS
+mariadb-slave    Up 44 minutes   0.0.0.0:3307->3306/tcp, [::]:3307->3306/tcp
+mariadb-master   Up 44 minutes   0.0.0.0:3306->3306/tcp, [::]:3306->3306/tcp

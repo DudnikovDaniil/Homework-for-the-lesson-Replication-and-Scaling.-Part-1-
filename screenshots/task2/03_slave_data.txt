@@ -1,0 +1,9 @@
+=== SLAVE DATA ===
+=== SLAVE DATA ===
+id	name	email
+5	Иван Петров	ivan@example.com
+6	Мария Сидорова	maria@example.com
+11	Тест	test@example.com
+12	Root Write	root@example.com
+id	name	price
+2	Телефон	499.99

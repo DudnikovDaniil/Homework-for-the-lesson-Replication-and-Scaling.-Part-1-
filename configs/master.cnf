@@ -1,0 +1,18 @@
+[mysqld]
+server-id = 1
+log_bin = /var/log/mysql/mysql-bin.log
+binlog_format = ROW
+expire_logs_days = 10
+max_binlog_size = 100M
+bind-address = 0.0.0.0
+
+# Репликация
+binlog_do_db = test_db
+binlog_ignore_db = mysql
+binlog_ignore_db = information_schema
+binlog_ignore_db = performance_schema
+
+[mysqldump]
+quick
+quote-names
+max_allowed_packet = 16M
